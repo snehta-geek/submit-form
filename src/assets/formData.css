@@ -1,0 +1,38 @@
+.container{
+    background-color: thistle;
+    min-height: 100vh;
+}
+.form-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    width: 30%;
+    background-color: floralwhite;
+    border: 1px solid antiquewhite;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    outline: unset;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button{
+    width: 15%;
+    padding: 15px;
+    border: 1px solid mediumvioletred;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+.output{
+    padding: 30px;
+    color: darkred;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
